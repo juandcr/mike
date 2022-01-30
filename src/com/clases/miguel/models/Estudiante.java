@@ -7,11 +7,12 @@ public class Estudiante extends Persona4 {
 	public Estudiante(String nombre, Integer edad) {
 		super(nombre, edad);
 	}
+	
 	public Estudiante(String nombre, Integer edad,String carrera, Integer semestre, Double promedio) {
 		super(nombre, edad);
 		this.carrera=carrera;
 		this.semestre=semestre;
-		this.promedio=promedio;
+		this.promedio=promedio;		
 	}
 	
 	public Estudiante() {
@@ -40,10 +41,16 @@ public class Estudiante extends Persona4 {
 	public void setPromedio(Double promedio) {
 		this.promedio = promedio;
 	}
+	
 	@Override
-	public String toString() {
-		return "Estudiante [carrera=" + carrera + ", semestre=" + semestre + ", promedio=" + promedio + "]";
+	public String toString() {		
+		return "Estudiante [carrera=" + carrera + ", semestre=" + semestre + ", promedio=" + promedio + "]";		
 	}
+	
+
+	
+	
+
 	
 	
 	

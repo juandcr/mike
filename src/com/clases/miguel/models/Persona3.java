@@ -19,7 +19,9 @@ public class Persona3 {
 		this.edad = edad;
 	}
 	
-	
+	public Persona3() {
+		this.nombre="Juan";
+	}
 	
 
 }

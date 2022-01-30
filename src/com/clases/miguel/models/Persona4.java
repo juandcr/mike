@@ -25,12 +25,21 @@ public class Persona4 {
 		this.edad = edad;
 	}
 	
-	@Override
-	public String toString() {
-		return "Persona4 [nombre=" + nombre + ", edad=" + edad + "]";
-	}
+
 	public Persona4() {
 	}
+	
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", edad=" + edad + "]";
+	}
+	
+	public int suma(int a,int b) {
+		return a+b;
+		
+	}
+	
+	
 	
 	
 	

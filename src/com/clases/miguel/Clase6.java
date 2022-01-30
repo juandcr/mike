@@ -9,13 +9,18 @@ public class Clase6 {
 		
 		Estudiante estudiante= new Estudiante();
 		
-		Persona4 persona = new Estudiante();
+		Persona4 persona = new Persona4();
 		
 		estudiante.setCarrera("Computación");
 		estudiante.setSemestre(2);
 		estudiante.setNombre("Miguel");
 		
 		persona.setNombre("Juan");
+		
+		System.out.println(persona.suma(2, 2));
+		
+		System.out.println(estudiante.suma(2, 2));		
+		
 		
 		
 		System.out.println(estudiante);
